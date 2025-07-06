@@ -32,7 +32,7 @@
 .hero__description {
 	color: var(--clr-text);
 	font-size: var(--size-sm);
-	width: 45ch;
+	width: 35ch;
 	text-align: center;
 }
 
