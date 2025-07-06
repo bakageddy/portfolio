@@ -38,8 +38,9 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	background-color: var(clr-base);
-	color: var(clr-text);
+	font-family: 'Satoshi-Black';
+	background-color: var(--clr-base);
+	color: var(--clr-text);
 }
 
 .container {
@@ -55,8 +56,6 @@ html {
 }
 
 body {
-	font-family: 'Satoshi-Black';
-	background-color: var(--clr-base);
 }
 
 img,
