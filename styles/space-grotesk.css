@@ -1,0 +1,42 @@
+/**
+* @license
+*
+* Font Family: Space Grotesk
+* Designed by: Florian Karsten
+* URL: https://www.fontshare.com/fonts/space-grotesk
+* © 2025 Indian Type Foundry
+*
+* Space Grotesk Regular 
+* Space Grotesk Medium 
+* Space Grotesk Bold 
+
+*
+*/
+@font-face {
+  font-family: 'SpaceGrotesk-Regular';
+  src: url('/SpaceGrotesk-Regular.woff2') format('woff2'),
+       url('/SpaceGrotesk-Regular.woff') format('woff'),
+       url('/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceGrotesk-Medium';
+  src: url('/SpaceGrotesk-Medium.woff2') format('woff2'),
+       url('/SpaceGrotesk-Medium.woff') format('woff'),
+       url('/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceGrotesk-Bold';
+  src: url('/SpaceGrotesk-Bold.woff2') format('woff2'),
+       url('/SpaceGrotesk-Bold.woff') format('woff'),
+       url('/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+

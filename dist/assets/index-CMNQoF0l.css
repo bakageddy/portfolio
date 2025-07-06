@@ -1,0 +1,49 @@
+/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */*,:before,:after{box-sizing:border-box}html{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";line-height:1.15;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4}body{margin:0}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:currentcolor}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}/**
+* @license
+*
+* Font Family: Satoshi
+* Designed by: Deni Anggara
+* URL: https://www.fontshare.com/fonts/satoshi
+* © 2025 Indian Type Foundry
+*
+* Satoshi Regular 
+* Satoshi Medium 
+* Satoshi Black 
+
+*
+*/@font-face{font-family:Satoshi-Regular;src:url(/Satoshi-Regular.woff2) format("woff2"),url(/Satoshi-Regular.woff) format("woff"),url(/Satoshi-Regular.ttf) format("truetype");font-weight:400;font-display:swap;font-style:normal}@font-face{font-family:Satoshi-Medium;src:url(/Satoshi-Medium.woff2) format("woff2"),url(/Satoshi-Medium.woff) format("woff"),url(/Satoshi-Medium.ttf) format("truetype");font-weight:500;font-display:swap;font-style:normal}@font-face{font-family:Satoshi-Black;src:url(/Satoshi-Black.woff2) format("woff2"),url(/Satoshi-Black.woff) format("woff"),url(/Satoshi-Black.ttf) format("truetype");font-weight:900;font-display:swap;font-style:normal}/**
+* @license
+*
+* Font Family: General Sans
+* Designed by: Frode Helland
+* URL: https://www.fontshare.com/fonts/general-sans
+* © 2025 Indian Type Foundry
+*
+* General Sans Bold 
+
+*
+*/@font-face{font-family:GeneralSans-Bold;src:url(/GeneralSans-Bold.woff2) format("woff2"),url(/GeneralSans-Bold.woff) format("woff"),url(/GeneralSans-Bold.ttf) format("truetype");font-weight:700;font-display:swap;font-style:normal}/**
+* @license
+*
+* Font Family: Space Grotesk
+* Designed by: Florian Karsten
+* URL: https://www.fontshare.com/fonts/space-grotesk
+* © 2025 Indian Type Foundry
+*
+* Space Grotesk Regular 
+* Space Grotesk Medium 
+* Space Grotesk Bold 
+
+*
+*/@font-face{font-family:SpaceGrotesk-Regular;src:url(/SpaceGrotesk-Regular.woff2) format("woff2"),url(/SpaceGrotesk-Regular.woff) format("woff"),url(/SpaceGrotesk-Regular.ttf) format("truetype");font-weight:400;font-display:swap;font-style:normal}@font-face{font-family:SpaceGrotesk-Medium;src:url(/SpaceGrotesk-Medium.woff2) format("woff2"),url(/SpaceGrotesk-Medium.woff) format("woff"),url(/SpaceGrotesk-Medium.ttf) format("truetype");font-weight:500;font-display:swap;font-style:normal}@font-face{font-family:SpaceGrotesk-Bold;src:url(/SpaceGrotesk-Bold.woff2) format("woff2"),url(/SpaceGrotesk-Bold.woff) format("woff"),url(/SpaceGrotesk-Bold.ttf) format("truetype");font-weight:700;font-display:swap;font-style:normal}/**
+* @license
+*
+* Font Family: Tanker
+* Designed by: Ruosi Huang
+* URL: https://www.fontshare.com/fonts/tanker
+* © 2025 Indian Type Foundry
+*
+* Tanker Regular 
+
+*
+*/@font-face{font-family:Tanker-Regular;src:url(/Tanker-Regular.woff2) format("woff2"),url(/Tanker-Regular.woff) format("woff"),url(/Tanker-Regular.ttf) format("truetype");font-weight:400;font-display:swap;font-style:normal}:root{--clr-base: #faf4ed;--clr-surface: #fffaf3;--clr-overlay: #f2e9e1;--clr-muted: #9893a5;--clr-subtle: #797593;--clr-text: #575279;--clr-red: #b4637a;--clr-yellow: #ea9d34;--clr-magenta: #d7827e;--clr-green: #286983;--clr-cyan: #56949f;--clr-violet: #907aa9;--clr-highlight: #cecacd;--size-xxs: .5rem;--size-xs: .75rem;--size-sm: .875rem;--size-base: 1rem;--size-lg: 1.125rem;--size-xl: 1.25rem;--size-2xl: 1.5rem;--size-3xl: 1.875rem;--size-4xl: 2.25rem;--size-5xl: 3rem;--size-6xl: 3.75rem;--size-7xl: 4.5rem;--size-8xl: 6rem;--size-9xl: 8rem;--size-10xl: 10rem}*{margin:0;line-height:calc(.5rem + 1em)}html,body{width:100%;height:100%;background-color:var(clr-base);color:var(clr-text)}html{scroll-behavior:smooth}body{font-family:Satoshi-Black;background-color:var(--clr-base)}img,picture,video,canvas,svg{display:block;max-width:100%;-webkit-user-select:none;user-select:none}button{display:inline-block;padding:0;border:none;background:none;cursor:pointer;color:inherit}a{color:var(--clr-magenta)}strong,em{color:var(--clr-yellow)}@media (min-width: 1024px){.container{max-width:1024px}}.header{display:flex;justify-content:flex-end;align-items:center;padding-top:2rem;padding-bottom:2rem}.header__bars{color:var(--clr-subtle);width:var(--size-2xl);height:var(--size-2xl);display:block}.header__menu{display:none}@media (min-width: 768px){.header__menu{display:flex;align-items:center;list-style:none;padding:0;gap:2rem}.header__link{font-size:var(--size-xs);text-decoration:none;font-family:SpaceGrotesk-Regular;font-weight:600;color:var(--clr-muted);letter-spacing:-.05em;transition:color .3s}.header__link:hover,.header__link:active{color:var(--clr-magenta)}.header__sep{display:block;border:1px solid var(--clr-muted);padding-top:1em}.header__bulb{display:block;color:var(--clr-muted);width:var(--size-base);height:var(--size-base)}.header__resume{font-size:var(--size-xs)}.header__bars{display:none}}.hero{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1rem;margin-top:2rem}.hero__profile{vertical-align:middle;border-radius:50%;width:6rem;height:6rem}.hero__greetings{color:var(--clr-text);font-size:var(--size-base);line-height:.9}.hero__title{color:var(--clr-green);font-family:GeneralSans-Bold;font-size:var(--size-4xl);text-transform:uppercase;letter-spacing:-.05em;line-height:.9}.hero__description{color:var(--clr-text);font-size:var(--size-sm);width:45ch;text-align:center}.hero__redirect{text-transform:capitalize;letter-spacing:.05em;font-size:var(--size-sm)}@media (min-width: 475px){.hero{gap:1.5rem}.hero__profile{width:6.5rem;height:6.5rem}.hero__greetings{font-size:var(--size-lg)}.hero__title{font-size:var(--size-5xl)}.hero__description,.hero__redirect{font-size:var(--size-base)}}@media (min-width: 1024px){.hero__profile{width:8rem;height:8rem}.hero__greetings{font-size:var(--size-2xl)}.hero__title{font-size:var(--size-7xl)}.hero__description,.hero__redirect{font-size:var(--size-lg)}}@media (min-width: 1280px){.hero{gap:2rem}.hero__profile{width:10rem;height:10rem}.hero__greetings{font-size:var(--size-4xl)}.hero__title{font-size:var(--size-9xl)}.hero__description,.hero__redirect{font-size:var(--size-xl)}}.btn{font-family:Tanker-Regular;display:inline-block;text-decoration:none;letter-spacing:-.05em;background-color:var(--clr-cyan);color:var(--clr-base);padding:.5em 1em;border-radius:6px;box-shadow:0 10px 20px #56949f80,0 6px 6px #56949f80,0 0 100px -10px var(--clr-cyan);transition:transform .3s,box-shadow .3s}.btn:hover{transform:translateY(-4px);box-shadow:0 14px 28px #56949f40,0 10px 10px #56949f38,0 0 120px -10px var(--clr-cyan)}.container{width:100%;margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem}.section{margin-top:5rem}@media (min-width: 475px){.container{max-width:475px}}@media (min-width: 640px){.container{max-width:475px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}.section{margin-top:10rem}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}
