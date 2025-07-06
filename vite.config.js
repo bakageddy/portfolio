@@ -5,5 +5,7 @@ export default defineConfig(({ command }) => {
     return {
 		base: '/portfolio',
     }
-  }
+  } else {
+		return {};
+	}
 });

@@ -5,4 +5,5 @@ then
   exit 1
 fi
 
+npm run build
 git subtree push --prefix $1 origin gh-pages
