@@ -1,0 +1,28 @@
+.about {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.about__description {
+	width: 40ch;
+}
+
+.about__container {
+	display: flex;
+	flex-direction: column;
+}
+
+.about__techstack {
+	display: flex;
+	flex-direction: row;
+}
+
+.about__profile {
+	display: block;
+	width: 16rem;
+	height: 16rem;
+}
